@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navcontainer">
+        <nav class="navbar">
+            <ul>
+                <li class="logoimageli"><img src="logo.png" alt="img">Spotify</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="Container">
+
+        <div class="SongList">
+            <h2 style="color: white;">Top Songs of Week</h2>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="0" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="1" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="2" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="3" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="4" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="5" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="6" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="7" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="8" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            <div class="Songitems">
+                <img alt="img">
+                <span class="songName"></span>
+                <i id="9" class="fa-solid smPlayer fa-circle-play"></i>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="bottomContainer">
+
+        <input type="range" name="range" id="myProgressBar" value="0" min="0%" max="100%">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="preIcon"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="nextIcon"></i>
+        </div>
+        <div class="songplayergif">
+            <p class="timeOfsong"><span id="currminutes">0</span> <span>: <span id="currsecndsFirst">0 </span><span id="currsecndsSecond"> 0  </span></span></p>
+            <span id="bottomPlaySongName">Hare Ram Tilte Track Bhul Bhulaiya 2</span>
+            <img id="gif" src="playing.gif" width="50px" alt="">
+        </div>
+        <div class="totalTimeOfSong">
+            <span id="totalminutes"> 0 </span> <span>: </span><span id="totalsecndsFirst">0 </span><span id="totalsecndsSecond"> 0  </span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5df0ff13e6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
