@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+
+body{
+    background-color:rgb(52, 54, 34);
+}
+*{
+     margin: 0;
+     padding: 0;
+}
+.navcontainer{
+    font-family: 'Tiro Telugu', serif;
+    position: sticky;
+    
+}
+.navbar ul{
+    display: flex;
+    height: 48px;
+    background-color: rgb(52, 54, 34);
+    color: white;
+    list-style: none;
+    align-items: center;
+    position: sticky;
+   
+}
+.navbar ul li{
+    padding: 0 12px;
+    cursor: pointer;  
+}
+.navbar a{
+    text-decoration: none;
+    color: white
+}
+.logoimageli img {
+    width: 48px;
+    align-items: center;
+    padding: 0 5px;
+    
+}
+.logoimageli{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.Container{
+    min-height: 68vh;
+    font-family: 'Tiro Telugu', serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.bottomContainer{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(52, 54, 34); 
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+
+
+.SongList{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.Songitems{
+    background-color:  rgb(237, 243, 181);
+    color: black;
+    border-radius: 30px;
+    font-family: 'Tiro Telugu', serif;
+    margin: 7px 0;
+    display: flex;
+    height: 41px;
+    justify-content: space-between;
+    align-items: center;
+    width: 38vw;
+    display: flex;
+    
+}
+.Songitems i{
+    margin-right: 40px;
+}
+    
+.Songitems img{
+    height: 36px;
+    border-radius: 100%;
+    margin:10px 20px;
+    
+}
+
+.songplayergif {
+    position: absolute;
+    left: 147px;
+}
+
+.songplayergif img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+
+}
+.songplayergif p{
+    margin-left: 20px;
+    color: rgb(232, 248, 96);
+}
+.totalTimeOfSong{
+    position: absolute;
+    right: 160px;
+    top: 30px;
+    color: rgb(232, 248, 96);
+}
